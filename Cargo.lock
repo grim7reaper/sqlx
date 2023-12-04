@@ -3541,6 +3541,7 @@ dependencies = [
  "crc",
  "dotenvy",
  "etcetera",
+ "flume",
  "futures-channel",
  "futures-core",
  "futures-io",
