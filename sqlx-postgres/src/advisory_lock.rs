@@ -98,8 +98,7 @@ impl PgAdvisoryLock {
     /// [hkdf]: https://datatracker.ietf.org/doc/html/rfc5869
     /// ### Example
     /// ```rust
-    /// # extern crate sqlx_core as sqlx;
-    /// use sqlx::postgres::{PgAdvisoryLock, PgAdvisoryLockKey};
+    /// use sqlx_postgres::{PgAdvisoryLock, PgAdvisoryLockKey};
     ///
     /// let lock = PgAdvisoryLock::new("my first Postgres advisory lock!");
     /// // Negative values are fine because of how Postgres treats advisory lock keys.

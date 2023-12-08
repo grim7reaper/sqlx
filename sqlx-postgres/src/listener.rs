@@ -188,7 +188,7 @@ impl PgListener {
     /// # Example
     ///
     /// ```rust,no_run
-    /// # use sqlx_core::postgres::PgListener;
+    /// # use sqlx_postgres::PgListener;
     /// # use sqlx_core::error::Error;
     /// #
     /// # #[cfg(feature = "_rt")]
@@ -219,7 +219,7 @@ impl PgListener {
     /// # Example
     ///
     /// ```rust,no_run
-    /// # use sqlx_core::postgres::PgListener;
+    /// # use sqlx_postgres::PgListener;
     /// # use sqlx_core::error::Error;
     /// #
     /// # #[cfg(feature = "_rt")]
